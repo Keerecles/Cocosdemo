@@ -1,0 +1,16 @@
+{
+  "options": {
+    "web-desktop": {
+      "configID": "790fbf",
+      "services": []
+    },
+    "ohos": {
+      "configID": "790fbf",
+      "services": []
+    }
+  },
+  "builder-options": {
+    "configID": "790fbf",
+    "services": []
+  }
+}

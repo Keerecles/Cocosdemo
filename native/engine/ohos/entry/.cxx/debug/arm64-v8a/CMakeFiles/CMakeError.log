@@ -1,0 +1,27 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: D:/Harmony/native/2.1.1.21/llvm/bin/clang++.exe 
+Build flags: -g;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-fno-addrsig;-Wa,--noexecstack;-Wformat;-Werror=format-security;;-std=c++14
+Id flags:  
+
+The output was:
+1
+clang++: error: unable to execute command: program not executable
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: D:/Harmony/native/2.1.1.21/llvm/bin/clang.exe 
+Build flags: -g;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-fno-addrsig;-Wa,--noexecstack;-Wformat;-Werror=format-security;
+Id flags:  
+
+The output was:
+1
+clang: error: unable to execute command: program not executable
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+OHOS (36191) clang version 9.0.0 (llvm-project c20cd5feb33c9df88918ffe9a0df76499befaa46) (based on LLVM 9.0.0)
+Target: x86_64-w64-windows-gnu
+Thread model: posix
+InstalledDir: D:/Harmony/native/2.1.1.21/llvm/bin

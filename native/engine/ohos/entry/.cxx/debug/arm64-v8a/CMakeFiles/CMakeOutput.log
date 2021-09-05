@@ -1,0 +1,279 @@
+The target system is: OHOS - 1 - aarch64
+The host system is: Windows - 10.0.19043 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/Harmony/native/2.1.1.21/llvm/bin/clang++.exe 
+Build flags: -g;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-fno-addrsig;-Wa,--noexecstack;-Wformat;-Werror=format-security;;-std=c++14
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is Clang, found in "D:/work/game/demo/native/engine/ohos/entry/.cxx/debug/arm64-v8a/CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/work/game/demo/native/engine/ohos/entry/.cxx/debug/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\Harmony\native\2.1.1.21\build-tools\cmake\bin\ninja.exe cmTC_186e0 && [1/2] Building CXX object CMakeFiles/cmTC_186e0.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_186e0
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/work/game/demo/native/engine/ohos/entry/.cxx/debug/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\Harmony\native\2.1.1.21\build-tools\cmake\bin\ninja.exe cmTC_8b8dd && [1/2] Building CXX object CMakeFiles/cmTC_8b8dd.dir/CMakeCXXCompilerABI.cpp.o
+OHOS (36191) clang version 9.0.0 (llvm-project c20cd5feb33c9df88918ffe9a0df76499befaa46) (based on LLVM 9.0.0)
+Target: aarch64-unknown-linux-ohos
+Thread model: posix
+InstalledDir: D:\Harmony\native\2.1.1.21\llvm\bin
+ "D:\\Harmony\\native\\2.1.1.21\\llvm\\bin\\clang++.exe" -cc1 -triple aarch64-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +neon -target-abi aapcs -mllvm -aarch64-fix-cortex-a53-835769=1 -fallow-half-arguments-and-returns -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -coverage-notes-file "D:\\work\\game\\demo\\native\\engine\\ohos\\entry\\.cxx\\debug\\arm64-v8a\\CMakeFiles\\CMakeTmp\\CMakeFiles/cmTC_8b8dd.dir/CMakeCXXCompilerABI.cpp.gcno" -resource-dir "D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0" -isysroot D:/Harmony/native/2.1.1.21/sysroot -internal-isystem "D:\\Harmony\\native\\2.1.1.21\\llvm\\bin/../include/c++/v1" -internal-isystem D:/Harmony/native/2.1.1.21/sysroot/usr/local/include -internal-isystem "D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\include" -internal-externc-isystem D:/Harmony/native/2.1.1.21/sysroot/usr/include/aarch64-linux-ohos -internal-externc-isystem D:/Harmony/native/2.1.1.21/sysroot/include -internal-externc-isystem D:/Harmony/native/2.1.1.21/sysroot/usr/include -Wformat -Werror=format-security -std=c++14 -fdeprecated-macro -fdebug-compilation-dir "D:\\work\\game\\demo\\native\\engine\\ohos\\entry\\.cxx\\debug\\arm64-v8a\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_8b8dd.dir/CMakeCXXCompilerABI.cpp.o -x c++ D:/Harmony/native/2.1.1.21/build-tools/cmake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 9.0.0 based upon LLVM 9.0.0 default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "D:/Harmony/native/2.1.1.21/sysroot/usr/local/include"
+ignoring nonexistent directory "D:/Harmony/native/2.1.1.21/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ D:\Harmony\native\2.1.1.21\llvm\bin/../include/c++/v1
+ D:\Harmony\native\2.1.1.21\llvm\lib\clang\9.0.0\include
+ D:/Harmony/native/2.1.1.21/sysroot/usr/include/aarch64-linux-ohos
+ D:/Harmony/native/2.1.1.21/sysroot/usr/include
+End of search list.
+[2/2] Linking CXX executable cmTC_8b8dd
+OHOS (36191) clang version 9.0.0 (llvm-project c20cd5feb33c9df88918ffe9a0df76499befaa46) (based on LLVM 9.0.0)
+Target: aarch64-unknown-linux-ohos
+Thread model: posix
+InstalledDir: D:\Harmony\native\2.1.1.21\llvm\bin
+ "D:\\Harmony\\native\\2.1.1.21\\llvm\\bin\\ld.lld" --sysroot=D:/Harmony/native/2.1.1.21/sysroot -pie -z noexecstack -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_8b8dd "D:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos\\crtbegin_dynamic.o" "-LD:\\Harmony\\native\\2.1.1.21\\llvm\\bin\\..\\lib\\aarch64-linux-ohos\\c++" "-LD:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos" -LD:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos -LD:/Harmony/native/2.1.1.21/sysroot/usr/lib --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_8b8dd.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm "D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos\\libclang_rt.builtins.a" -lc "D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos\\libclang_rt.builtins.a" "D:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos\\crtend_android.o"
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [D:/Harmony/native/2.1.1.21/llvm/bin/../include/c++/v1]
+    add: [D:/Harmony/native/2.1.1.21/llvm/lib/clang/9.0.0/include]
+    add: [D:/Harmony/native/2.1.1.21/sysroot/usr/include/aarch64-linux-ohos]
+    add: [D:/Harmony/native/2.1.1.21/sysroot/usr/include]
+  end of search list found
+  collapse include dir [D:/Harmony/native/2.1.1.21/llvm/bin/../include/c++/v1] ==> [D:/Harmony/native/2.1.1.21/llvm/include/c++/v1]
+  collapse include dir [D:/Harmony/native/2.1.1.21/llvm/lib/clang/9.0.0/include] ==> [D:/Harmony/native/2.1.1.21/llvm/lib/clang/9.0.0/include]
+  collapse include dir [D:/Harmony/native/2.1.1.21/sysroot/usr/include/aarch64-linux-ohos] ==> [D:/Harmony/native/2.1.1.21/sysroot/usr/include/aarch64-linux-ohos]
+  collapse include dir [D:/Harmony/native/2.1.1.21/sysroot/usr/include] ==> [D:/Harmony/native/2.1.1.21/sysroot/usr/include]
+  implicit include dirs: [D:/Harmony/native/2.1.1.21/llvm/include/c++/v1;D:/Harmony/native/2.1.1.21/llvm/lib/clang/9.0.0/include;D:/Harmony/native/2.1.1.21/sysroot/usr/include/aarch64-linux-ohos;D:/Harmony/native/2.1.1.21/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/work/game/demo/native/engine/ohos/entry/.cxx/debug/arm64-v8a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:\Harmony\native\2.1.1.21\build-tools\cmake\bin\ninja.exe cmTC_8b8dd && [1/2] Building CXX object CMakeFiles/cmTC_8b8dd.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [OHOS (36191) clang version 9.0.0 (llvm-project c20cd5feb33c9df88918ffe9a0df76499befaa46) (based on LLVM 9.0.0)]
+  ignore line: [Target: aarch64-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: D:\Harmony\native\2.1.1.21\llvm\bin]
+  ignore line: [ "D:\\Harmony\\native\\2.1.1.21\\llvm\\bin\\clang++.exe" -cc1 -triple aarch64-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +neon -target-abi aapcs -mllvm -aarch64-fix-cortex-a53-835769=1 -fallow-half-arguments-and-returns -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -coverage-notes-file "D:\\work\\game\\demo\\native\\engine\\ohos\\entry\\.cxx\\debug\\arm64-v8a\\CMakeFiles\\CMakeTmp\\CMakeFiles/cmTC_8b8dd.dir/CMakeCXXCompilerABI.cpp.gcno" -resource-dir "D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0" -isysroot D:/Harmony/native/2.1.1.21/sysroot -internal-isystem "D:\\Harmony\\native\\2.1.1.21\\llvm\\bin/../include/c++/v1" -internal-isystem D:/Harmony/native/2.1.1.21/sysroot/usr/local/include -internal-isystem "D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\include" -internal-externc-isystem D:/Harmony/native/2.1.1.21/sysroot/usr/include/aarch64-linux-ohos -internal-externc-isystem D:/Harmony/native/2.1.1.21/sysroot/include -internal-externc-isystem D:/Harmony/native/2.1.1.21/sysroot/usr/include -Wformat -Werror=format-security -std=c++14 -fdeprecated-macro -fdebug-compilation-dir "D:\\work\\game\\demo\\native\\engine\\ohos\\entry\\.cxx\\debug\\arm64-v8a\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_8b8dd.dir/CMakeCXXCompilerABI.cpp.o -x c++ D:/Harmony/native/2.1.1.21/build-tools/cmake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 9.0.0 based upon LLVM 9.0.0 default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "D:/Harmony/native/2.1.1.21/sysroot/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "D:/Harmony/native/2.1.1.21/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ D:\Harmony\native\2.1.1.21\llvm\bin/../include/c++/v1]
+  ignore line: [ D:\Harmony\native\2.1.1.21\llvm\lib\clang\9.0.0\include]
+  ignore line: [ D:/Harmony/native/2.1.1.21/sysroot/usr/include/aarch64-linux-ohos]
+  ignore line: [ D:/Harmony/native/2.1.1.21/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_8b8dd]
+  ignore line: [OHOS (36191) clang version 9.0.0 (llvm-project c20cd5feb33c9df88918ffe9a0df76499befaa46) (based on LLVM 9.0.0)]
+  ignore line: [Target: aarch64-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: D:\Harmony\native\2.1.1.21\llvm\bin]
+  link line: [ "D:\\Harmony\\native\\2.1.1.21\\llvm\\bin\\ld.lld" --sysroot=D:/Harmony/native/2.1.1.21/sysroot -pie -z noexecstack -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_8b8dd "D:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos\\crtbegin_dynamic.o" "-LD:\\Harmony\\native\\2.1.1.21\\llvm\\bin\\..\\lib\\aarch64-linux-ohos\\c++" "-LD:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos" -LD:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos -LD:/Harmony/native/2.1.1.21/sysroot/usr/lib --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_8b8dd.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm "D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos\\libclang_rt.builtins.a" -lc "D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos\\libclang_rt.builtins.a" "D:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos\\crtend_android.o"]
+    arg [D:\\Harmony\\native\\2.1.1.21\\llvm\\bin\\ld.lld] ==> ignore
+    arg [--sysroot=D:/Harmony/native/2.1.1.21/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8b8dd] ==> ignore
+    arg [D:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos\\crtbegin_dynamic.o] ==> ignore
+    arg [-LD:\\Harmony\\native\\2.1.1.21\\llvm\\bin\\..\\lib\\aarch64-linux-ohos\\c++] ==> dir [D:\\Harmony\\native\\2.1.1.21\\llvm\\bin\\..\\lib\\aarch64-linux-ohos\\c++]
+    arg [-LD:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos] ==> dir [D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos]
+    arg [-LD:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos] ==> dir [D:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos]
+    arg [-LD:/Harmony/native/2.1.1.21/sysroot/usr/lib] ==> dir [D:/Harmony/native/2.1.1.21/sysroot/usr/lib]
+    arg [--build-id=sha1] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [-lunwind] ==> lib [unwind]
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_8b8dd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lm] ==> lib [m]
+    arg [D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos\\libclang_rt.builtins.a] ==> lib [D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos\\libclang_rt.builtins.a]
+    arg [-lc] ==> lib [c]
+    arg [D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos\\libclang_rt.builtins.a] ==> lib [D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos\\libclang_rt.builtins.a]
+    arg [D:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos\\crtend_android.o] ==> ignore
+  remove lib [D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos\\libclang_rt.builtins.a]
+  remove lib [D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos\\libclang_rt.builtins.a]
+  collapse library dir [D:\\Harmony\\native\\2.1.1.21\\llvm\\bin\\..\\lib\\aarch64-linux-ohos\\c++] ==> [D:/Harmony/native/2.1.1.21/llvm/lib/aarch64-linux-ohos/c++]
+  collapse library dir [D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos] ==> [D:/Harmony/native/2.1.1.21/llvm/lib/clang/9.0.0/lib/aarch64-linux-ohos]
+  collapse library dir [D:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos] ==> [D:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos]
+  collapse library dir [D:/Harmony/native/2.1.1.21/sysroot/usr/lib] ==> [D:/Harmony/native/2.1.1.21/sysroot/usr/lib]
+  implicit libs: [unwind;c++;m;c]
+  implicit dirs: [D:/Harmony/native/2.1.1.21/llvm/lib/aarch64-linux-ohos/c++;D:/Harmony/native/2.1.1.21/llvm/lib/clang/9.0.0/lib/aarch64-linux-ohos;D:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos;D:/Harmony/native/2.1.1.21/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/Harmony/native/2.1.1.21/llvm/bin/clang.exe 
+Build flags: -g;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-fno-addrsig;-Wa,--noexecstack;-Wformat;-Werror=format-security;
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is Clang, found in "D:/work/game/demo/native/engine/ohos/entry/.cxx/debug/arm64-v8a/CMakeFiles/3.16.5/CompilerIdC/CMakeCCompilerId.o"
+
+Checking whether the ASM compiler is Clang using "--version" matched "(clang version)":
+OHOS (36191) clang version 9.0.0 (llvm-project c20cd5feb33c9df88918ffe9a0df76499befaa46) (based on LLVM 9.0.0)
+Target: x86_64-w64-windows-gnu
+Thread model: posix
+InstalledDir: D:/Harmony/native/2.1.1.21/llvm/bin
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/work/game/demo/native/engine/ohos/entry/.cxx/debug/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\Harmony\native\2.1.1.21\build-tools\cmake\bin\ninja.exe cmTC_9aa13 && [1/2] Building C object CMakeFiles/cmTC_9aa13.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_9aa13
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/work/game/demo/native/engine/ohos/entry/.cxx/debug/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\Harmony\native\2.1.1.21\build-tools\cmake\bin\ninja.exe cmTC_e07a2 && [1/2] Building C object CMakeFiles/cmTC_e07a2.dir/CMakeCCompilerABI.c.o
+OHOS (36191) clang version 9.0.0 (llvm-project c20cd5feb33c9df88918ffe9a0df76499befaa46) (based on LLVM 9.0.0)
+Target: aarch64-unknown-linux-ohos
+Thread model: posix
+InstalledDir: D:\Harmony\native\2.1.1.21\llvm\bin
+ "D:\\Harmony\\native\\2.1.1.21\\llvm\\bin\\clang.exe" -cc1 -triple aarch64-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +neon -target-abi aapcs -mllvm -aarch64-fix-cortex-a53-835769=1 -fallow-half-arguments-and-returns -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -coverage-notes-file "D:\\work\\game\\demo\\native\\engine\\ohos\\entry\\.cxx\\debug\\arm64-v8a\\CMakeFiles\\CMakeTmp\\CMakeFiles/cmTC_e07a2.dir/CMakeCCompilerABI.c.gcno" -resource-dir "D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0" -isysroot D:/Harmony/native/2.1.1.21/sysroot -internal-isystem D:/Harmony/native/2.1.1.21/sysroot/usr/local/include -internal-isystem "D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\include" -internal-externc-isystem D:/Harmony/native/2.1.1.21/sysroot/usr/include/aarch64-linux-ohos -internal-externc-isystem D:/Harmony/native/2.1.1.21/sysroot/include -internal-externc-isystem D:/Harmony/native/2.1.1.21/sysroot/usr/include -Wformat -Werror=format-security -fdebug-compilation-dir "D:\\work\\game\\demo\\native\\engine\\ohos\\entry\\.cxx\\debug\\arm64-v8a\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_e07a2.dir/CMakeCCompilerABI.c.o -x c D:/Harmony/native/2.1.1.21/build-tools/cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+clang -cc1 version 9.0.0 based upon LLVM 9.0.0 default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "D:/Harmony/native/2.1.1.21/sysroot/usr/local/include"
+ignoring nonexistent directory "D:/Harmony/native/2.1.1.21/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ D:\Harmony\native\2.1.1.21\llvm\lib\clang\9.0.0\include
+ D:/Harmony/native/2.1.1.21/sysroot/usr/include/aarch64-linux-ohos
+ D:/Harmony/native/2.1.1.21/sysroot/usr/include
+End of search list.
+[2/2] Linking C executable cmTC_e07a2
+OHOS (36191) clang version 9.0.0 (llvm-project c20cd5feb33c9df88918ffe9a0df76499befaa46) (based on LLVM 9.0.0)
+Target: aarch64-unknown-linux-ohos
+Thread model: posix
+InstalledDir: D:\Harmony\native\2.1.1.21\llvm\bin
+ "D:\\Harmony\\native\\2.1.1.21\\llvm\\bin\\ld.lld" --sysroot=D:/Harmony/native/2.1.1.21/sysroot -pie -z noexecstack -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_e07a2 "D:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos\\crtbegin_dynamic.o" "-LD:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos" -LD:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos -LD:/Harmony/native/2.1.1.21/sysroot/usr/lib --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_e07a2.dir/CMakeCCompilerABI.c.o "D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos\\libclang_rt.builtins.a" -lc "D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos\\libclang_rt.builtins.a" "D:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos\\crtend_android.o"
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [D:/Harmony/native/2.1.1.21/llvm/lib/clang/9.0.0/include]
+    add: [D:/Harmony/native/2.1.1.21/sysroot/usr/include/aarch64-linux-ohos]
+    add: [D:/Harmony/native/2.1.1.21/sysroot/usr/include]
+  end of search list found
+  collapse include dir [D:/Harmony/native/2.1.1.21/llvm/lib/clang/9.0.0/include] ==> [D:/Harmony/native/2.1.1.21/llvm/lib/clang/9.0.0/include]
+  collapse include dir [D:/Harmony/native/2.1.1.21/sysroot/usr/include/aarch64-linux-ohos] ==> [D:/Harmony/native/2.1.1.21/sysroot/usr/include/aarch64-linux-ohos]
+  collapse include dir [D:/Harmony/native/2.1.1.21/sysroot/usr/include] ==> [D:/Harmony/native/2.1.1.21/sysroot/usr/include]
+  implicit include dirs: [D:/Harmony/native/2.1.1.21/llvm/lib/clang/9.0.0/include;D:/Harmony/native/2.1.1.21/sysroot/usr/include/aarch64-linux-ohos;D:/Harmony/native/2.1.1.21/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/work/game/demo/native/engine/ohos/entry/.cxx/debug/arm64-v8a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:\Harmony\native\2.1.1.21\build-tools\cmake\bin\ninja.exe cmTC_e07a2 && [1/2] Building C object CMakeFiles/cmTC_e07a2.dir/CMakeCCompilerABI.c.o]
+  ignore line: [OHOS (36191) clang version 9.0.0 (llvm-project c20cd5feb33c9df88918ffe9a0df76499befaa46) (based on LLVM 9.0.0)]
+  ignore line: [Target: aarch64-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: D:\Harmony\native\2.1.1.21\llvm\bin]
+  ignore line: [ "D:\\Harmony\\native\\2.1.1.21\\llvm\\bin\\clang.exe" -cc1 -triple aarch64-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +neon -target-abi aapcs -mllvm -aarch64-fix-cortex-a53-835769=1 -fallow-half-arguments-and-returns -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -coverage-notes-file "D:\\work\\game\\demo\\native\\engine\\ohos\\entry\\.cxx\\debug\\arm64-v8a\\CMakeFiles\\CMakeTmp\\CMakeFiles/cmTC_e07a2.dir/CMakeCCompilerABI.c.gcno" -resource-dir "D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0" -isysroot D:/Harmony/native/2.1.1.21/sysroot -internal-isystem D:/Harmony/native/2.1.1.21/sysroot/usr/local/include -internal-isystem "D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\include" -internal-externc-isystem D:/Harmony/native/2.1.1.21/sysroot/usr/include/aarch64-linux-ohos -internal-externc-isystem D:/Harmony/native/2.1.1.21/sysroot/include -internal-externc-isystem D:/Harmony/native/2.1.1.21/sysroot/usr/include -Wformat -Werror=format-security -fdebug-compilation-dir "D:\\work\\game\\demo\\native\\engine\\ohos\\entry\\.cxx\\debug\\arm64-v8a\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_e07a2.dir/CMakeCCompilerABI.c.o -x c D:/Harmony/native/2.1.1.21/build-tools/cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 9.0.0 based upon LLVM 9.0.0 default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "D:/Harmony/native/2.1.1.21/sysroot/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "D:/Harmony/native/2.1.1.21/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ D:\Harmony\native\2.1.1.21\llvm\lib\clang\9.0.0\include]
+  ignore line: [ D:/Harmony/native/2.1.1.21/sysroot/usr/include/aarch64-linux-ohos]
+  ignore line: [ D:/Harmony/native/2.1.1.21/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_e07a2]
+  ignore line: [OHOS (36191) clang version 9.0.0 (llvm-project c20cd5feb33c9df88918ffe9a0df76499befaa46) (based on LLVM 9.0.0)]
+  ignore line: [Target: aarch64-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: D:\Harmony\native\2.1.1.21\llvm\bin]
+  link line: [ "D:\\Harmony\\native\\2.1.1.21\\llvm\\bin\\ld.lld" --sysroot=D:/Harmony/native/2.1.1.21/sysroot -pie -z noexecstack -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_e07a2 "D:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos\\crtbegin_dynamic.o" "-LD:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos" -LD:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos -LD:/Harmony/native/2.1.1.21/sysroot/usr/lib --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_e07a2.dir/CMakeCCompilerABI.c.o "D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos\\libclang_rt.builtins.a" -lc "D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos\\libclang_rt.builtins.a" "D:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos\\crtend_android.o"]
+    arg [D:\\Harmony\\native\\2.1.1.21\\llvm\\bin\\ld.lld] ==> ignore
+    arg [--sysroot=D:/Harmony/native/2.1.1.21/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e07a2] ==> ignore
+    arg [D:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos\\crtbegin_dynamic.o] ==> ignore
+    arg [-LD:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos] ==> dir [D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos]
+    arg [-LD:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos] ==> dir [D:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos]
+    arg [-LD:/Harmony/native/2.1.1.21/sysroot/usr/lib] ==> dir [D:/Harmony/native/2.1.1.21/sysroot/usr/lib]
+    arg [--build-id=sha1] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [-lunwind] ==> lib [unwind]
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_e07a2.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos\\libclang_rt.builtins.a] ==> lib [D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos\\libclang_rt.builtins.a]
+    arg [-lc] ==> lib [c]
+    arg [D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos\\libclang_rt.builtins.a] ==> lib [D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos\\libclang_rt.builtins.a]
+    arg [D:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos\\crtend_android.o] ==> ignore
+  remove lib [D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos\\libclang_rt.builtins.a]
+  remove lib [D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos\\libclang_rt.builtins.a]
+  collapse library dir [D:\\Harmony\\native\\2.1.1.21\\llvm\\lib\\clang\\9.0.0\\lib\\aarch64-linux-ohos] ==> [D:/Harmony/native/2.1.1.21/llvm/lib/clang/9.0.0/lib/aarch64-linux-ohos]
+  collapse library dir [D:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos] ==> [D:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos]
+  collapse library dir [D:/Harmony/native/2.1.1.21/sysroot/usr/lib] ==> [D:/Harmony/native/2.1.1.21/sysroot/usr/lib]
+  implicit libs: [unwind;c]
+  implicit dirs: [D:/Harmony/native/2.1.1.21/llvm/lib/clang/9.0.0/lib/aarch64-linux-ohos;D:/Harmony/native/2.1.1.21/sysroot/usr/lib/aarch64-linux-ohos;D:/Harmony/native/2.1.1.21/sysroot/usr/lib]
+  implicit fwks: []
+
+

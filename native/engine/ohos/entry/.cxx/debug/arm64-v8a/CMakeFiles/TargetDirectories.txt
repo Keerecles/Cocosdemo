@@ -1,0 +1,7 @@
+D:/work/game/demo/native/engine/ohos/entry/.cxx/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+D:/work/game/demo/native/engine/ohos/entry/.cxx/debug/arm64-v8a/CMakeFiles/pvmp3dec.dir
+D:/work/game/demo/native/engine/ohos/entry/.cxx/debug/arm64-v8a/CMakeFiles/vorbisidec.dir
+D:/work/game/demo/native/engine/ohos/entry/.cxx/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/work/game/demo/native/engine/ohos/entry/.cxx/debug/arm64-v8a/CMakeFiles/cocos2d_jni.dir
+D:/work/game/demo/native/engine/ohos/entry/.cxx/debug/arm64-v8a/CMakeFiles/cocos2d.dir
+D:/work/game/demo/native/engine/ohos/entry/.cxx/debug/arm64-v8a/CMakeFiles/cocos.dir

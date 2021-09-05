@@ -1,0 +1,104 @@
+{
+  "D:\\work\\game\\demo\\assets\\myscene.scene.meta": {
+    "time": 1630741489570.8853
+  },
+  "D:\\work\\game\\demo\\assets\\shield.jpg.meta": {
+    "time": 1630739225121.717
+  },
+  "D:\\work\\game\\demo\\assets\\texture": {
+    "time": 1630740394244.3345,
+    "uuid": "4e99f62e-ad8a-472f-bec0-3c282503ff5c",
+    "missing": false
+  },
+  "D:\\work\\game\\demo\\assets\\texture.meta": {
+    "time": 1630740281986.447
+  },
+  "D:\\work\\game\\demo\\assets\\texture\\seafloor.jpg": {
+    "time": 1630666567675.948,
+    "uuid": "4f4c4a34-2d08-4a4d-9169-834d7ce82cee",
+    "missing": false
+  },
+  "D:\\work\\game\\demo\\assets\\texture\\seafloor.jpg.meta": {
+    "time": 1630739225112.7402
+  },
+  "D:\\work\\game\\demo\\assets\\texture\\stone.jpg": {
+    "time": 1630666567705.868,
+    "uuid": "0718d996-39bf-4ab4-bb63-496666fef467",
+    "missing": false
+  },
+  "D:\\work\\game\\demo\\assets\\texture\\stone.jpg.meta": {
+    "time": 1630739225165.6006
+  },
+  "D:\\work\\game\\demo\\assets\\seafloor.jpg.meta": {
+    "time": 1630739225112.7402
+  },
+  "D:\\work\\game\\demo\\assets\\seafloor.jpg": {
+    "time": 1630666567675.948,
+    "uuid": "4f4c4a34-2d08-4a4d-9169-834d7ce82cee",
+    "missing": false
+  },
+  "D:\\work\\game\\demo\\assets\\scene-2d.scene.meta": {
+    "time": 1630740498250.4626
+  },
+  "D:\\work\\game\\demo\\assets\\NewComponent.ts": {
+    "time": 1630740823122.3813,
+    "uuid": "7402fabd-5495-4494-ab03-8f69e5a055e4",
+    "missing": false
+  },
+  "D:\\work\\game\\demo\\assets\\NewComponent.ts.meta": {
+    "time": 1630740823125.372
+  },
+  "D:\\work\\game\\demo\\assets\\helloword.ts.meta": {
+    "time": 1630740823125.372
+  },
+  "D:\\work\\game\\demo\\assets\\helloword.ts": {
+    "time": 1630740823122.3813,
+    "uuid": "7402fabd-5495-4494-ab03-8f69e5a055e4",
+    "missing": false
+  },
+  "D:\\work\\game\\demo\\assets\\myscene.scene": {
+    "time": 1630746127652.957,
+    "uuid": "7e0cd84a-31ba-48f6-bd2c-19a3f45a7b19",
+    "missing": false
+  },
+  "D:\\work\\game\\demo\\assets\\folder": {
+    "time": 1630742142660.4314,
+    "uuid": "3f2f9831-b4a5-4090-b1fa-bf1559910225",
+    "missing": false
+  },
+  "D:\\work\\game\\demo\\assets\\folder.meta": {
+    "time": 1630742142664.4207
+  },
+  "D:\\work\\game\\demo\\assets\\script.meta": {
+    "time": 1630742142664.4207
+  },
+  "D:\\work\\game\\demo\\assets\\script": {
+    "time": 1630744418019.537,
+    "uuid": "3f2f9831-b4a5-4090-b1fa-bf1559910225",
+    "missing": false
+  },
+  "D:\\work\\game\\demo\\assets\\script\\helloword.ts.meta": {
+    "time": 1630740823125.372
+  },
+  "D:\\work\\game\\demo\\assets\\script\\helloword.ts": {
+    "time": 1630746103729.2795,
+    "uuid": "7402fabd-5495-4494-ab03-8f69e5a055e4",
+    "missing": false
+  },
+  "D:\\work\\game\\demo\\assets\\script\\NewComponent-001.ts": {
+    "time": 1630744412542.1438,
+    "uuid": "efb04dff-b8fd-4e1a-8ca7-fa58de216a6a",
+    "missing": false
+  },
+  "D:\\work\\game\\demo\\assets\\script\\NewComponent-001.ts.meta": {
+    "time": 1630744412545.136
+  },
+  "D:\\work\\game\\demo\\assets\\script\\pig.ts.meta": {
+    "time": 1630744412545.136
+  },
+  "D:\\work\\game\\demo\\assets\\script\\pig.ts": {
+    "time": 1630744949375.3093,
+    "uuid": "efb04dff-b8fd-4e1a-8ca7-fa58de216a6a",
+    "missing": false
+  }
+}

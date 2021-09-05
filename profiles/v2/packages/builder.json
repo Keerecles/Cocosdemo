@@ -1,0 +1,76 @@
+{
+  "__version__": "1.2.8",
+  "log": {
+    "level": 4
+  },
+  "common": {
+    "outputName": "ohos",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "ohos"
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1630746196561": {
+        "id": "1630746196561",
+        "progress": 1,
+        "state": "success",
+        "message": "2021-9-4 17:03 Build success in 5080 ms!",
+        "options": {
+          "name": "demo",
+          "platform": "ohos",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "sourceMaps": false,
+          "replaceSplashScreen": false,
+          "mainBundleCompressionType": "merge_dep",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "7e0cd84a-31ba-48f6-bd2c-19a3f45a7b19",
+          "scenes": [
+            {
+              "url": "db://assets/myscene.scene",
+              "uuid": "7e0cd84a-31ba-48f6-bd2c-19a3f45a7b19",
+              "inBundle": false
+            }
+          ],
+          "outputName": "ohos",
+          "packages": {
+            "native": {
+              "polyfills": {
+                "asyncFunctions": true
+              },
+              "encrypted": false,
+              "xxteaKey": "28w/LAAnRAxYQPuZ",
+              "compressZip": false,
+              "makeAfterBuild": false,
+              "JobSystem": "taskFlow"
+            },
+            "cocos-service": {
+              "configID": "790fbf",
+              "services": []
+            },
+            "ohos": {
+              "packageName": "com.cocos.ohos",
+              "apiLevel": "5",
+              "orientation": {
+                "portrait": false,
+                "upsideDown": false,
+                "landscapeRight": true,
+                "landscapeLeft": true
+              },
+              "renderBackEnd": {
+                "gles3": true
+              }
+            }
+          }
+        },
+        "time": "2021-9-4 17:03",
+        "dirty": false
+      }
+    }
+  }
+}
